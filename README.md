@@ -1,18 +1,14 @@
-#Lollypop
-
+# Lollypop
 
 Lollypop is a new GNOME music playing application.
 
-
-*For users: http://gnumdk.github.io/lollypop-web
-
-*For packagers: You need to provide https://github.com/gnumdk/lollypop-portal
-
-*FAQ: https://github.com/gnumdk/lollypop/wiki
-
-For translators: https://www.transifex.com/projects/p/lollypop/
+- For users: http://gnumdk.github.io/lollypop-web
+- For packagers: You need to provide https://github.com/gnumdk/lollypop-portal
+- FAQ: https://github.com/gnumdk/lollypop/wiki
+- For translators: https://www.transifex.com/projects/p/lollypop/
 
 It provides:
+
 - mp3/4, ogg and flac.
 - Genre/Cover browsing
 - Genre/Artist/Cover browsing
@@ -30,7 +26,7 @@ It provides:
 - HiDPI support
 - Tunein support
 
-##Depends on
+## Depends on
 - gtk3 >= 3.14
 - gobject-introspection
 - gir1.2-gstreamer-1.0 (Debian)
@@ -45,7 +41,8 @@ It provides:
 - python-sqlite
 - python-pylast >= 1.0
 
-##Building from git
+## Building from git
+
 ```
 $ git clone https://github.com/gnumdk/lollypop.git
 $ cd lollypop
